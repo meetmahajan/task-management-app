@@ -39,7 +39,10 @@ task-management-app/
 │   │   │   ├── components/
 │   │   │   │   ├── task-list/
 │   │   │   │   │   ├── task-list.component.ts     # TaskListComponent logic
-│   │   │   │   │   ├── task-list.component.html   # TaskListComponent template
+│   │   │   │   │   └── task-list.component.html   # TaskListComponent template
+|   |   |   |   └── task-detail/
+│   │   │   │       ├── task-detail.component.ts   # TaskDetailComponent logic
+│   │   │   │       └── task-detail.component.html # TaskDetailComponent template
 │   │   │   ├── services/
 │   │   │   |   └── task.service.ts                # Handles HTTP calls to backend
 |   |   |   └── models/
