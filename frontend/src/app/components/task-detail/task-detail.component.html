@@ -1,0 +1,7 @@
+<div *ngIf="task">
+    <h3>{{ task.title }}</h3>
+    <p>{{ task.description }}</p>
+    <button (click)="toggleCompletion()">
+      {{ task.completed ? 'Mark as Pending' : 'Mark as Completed' }}
+    </button>
+  </div>

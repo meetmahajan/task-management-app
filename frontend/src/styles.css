@@ -1,36 +1,36 @@
 /* Global styles for the Task Management App */
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-  }
-  
-  h2 {
-    color: #333;
-  }
-  
-  .task-list {
-    width: 80%;
-    margin: 20px auto;
-    background: #fff;
-    padding: 10px;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .task-list ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .task-list li {
-    padding: 8px;
-    margin-bottom: 5px;
-    border-bottom: 1px solid #ccc;
-  }
-  
-  .task-list li:last-child {
-    border-bottom: none;
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+h2 {
+  color: #333;
+}
+
+.task-list {
+  width: 80%;
+  margin: 20px auto;
+  background: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  padding: 8px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.task-list li:last-child {
+  border-bottom: none;
+}

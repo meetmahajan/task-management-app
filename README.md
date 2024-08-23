@@ -45,8 +45,7 @@ task-management-app/
 |   |   |   └── models/
 │   │   │       └── task.model.ts                  # Handles schema of task object
 │   │   ├── index.html                             # Main HTML file for Angular
-│   │   ├── main.ts                                # Angular entry point
-│   │   └── styles.css                             # Global CSS styles
+│   │   └── main.ts                                # Angular entry point
 │   ├── angular.json                               # Angular project configuration
 │   ├── package.json                               # NPM dependencies and scripts
 │   ├── tsconfig.json                              # TypeScript configuration
@@ -102,6 +101,10 @@ The frontend is built with Angular and provides the user interface for managing 
 - **TaskListComponent (`task-list.component.ts`)**
   - **Description**: Displays a list of tasks fetched from the backend.
   - **Methods**: `ngOnInit` - Fetches the list of tasks on component initialization.
+
+- **TaskDetailComponent (`task-detail.component.ts`)**
+  - **Description**: Displays and allows editing of a single task's details.
+  - **Methods**: `ngOnInit` - Fetches the task details by ID when the component initializes.
 
 ### Services
 
