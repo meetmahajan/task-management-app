@@ -168,6 +168,7 @@ To run the project locally, you need to have Go, Node.js, Angular CLI, and MySQL
 
 3. **Run the frontend server:**
    ```bash
+   export NODE_OPTIONS=--openssl-legacy-provider
    ng serve
    ```
 
